@@ -1,0 +1,121 @@
+$ cd rep6
+
+$ git inir
+
+$ git init
+
+$ nano text.txt
+
+$ git add .
+
+$ git commit -m "add file"
+
+$ git remote add origin https://github.com/qnNAI/rep4
+
+$ git push -u origin master
+
+$ git branch develop
+
+$ git checkout develop
+
+$ nano temp.txt
+
+$ git add .
+
+$ git commit -m "add temp file"
+
+$ git push -u origin develop
+
+$ git checkout -b dev2
+
+$ nano text.txt
+
+$ git add .
+
+$ git commit -m "add line"
+
+$ git push -u origin dev2
+
+$ cd ..
+
+$ cd rep7
+
+$ git clone https://github.com/qnNAI/rep4
+
+$ cd rep4
+
+$ git branch
+
+$ git cd ..
+
+$ cd ..
+
+$ cd ..
+
+$ rep 6
+
+$ cd rep6
+
+$ git branch
+
+$ cd ..
+
+$ cd rep7
+
+$ cd rep4
+
+$ git branch
+
+$ cd ..
+
+$ cd ..
+
+$ cd rep8
+
+$ git clone https://github.com/qnNAI/rep4
+
+$ cd rep4
+
+$ git branch
+
+$ git checkout develop
+
+$ git checkout -b dev3
+
+$ nano text.txt
+
+$ git add .
+
+$ git commit -m "add line dev3"
+
+$ git push -u origin dev3
+
+$ git checkout develop
+
+$ git merge dev2
+
+$ git merge origin/dev2
+
+$ git add .
+
+$ git commit -m "merge1"
+
+$ git push -u origin develop
+
+$ rm temp.txt
+
+$ git add .
+
+$ git commit -m "remove temp file"
+
+$ git push -u origin develop
+
+$ git merge origin/dev3
+
+$ nano text.txt
+
+$ git add .
+
+$ git commit -m "merge2"
+
+$ git push -u origin develop
